@@ -76,9 +76,9 @@ const LeagueDetail = () => {
 
 
             <div className="d-flex justify-content-center">
-                <a href={`https://${league.strFacebook}`} target="_blank"><FontAwesomeIcon style={{ color: 'blue' }} className="icons fa-2x" icon={faFacebook} />  </a>
-                <a href={`https://${league.strYoutube}`} target="_blank" alt=""><FontAwesomeIcon className="icons fa-2x" style={{ color: 'red' }} icon={faYoutube} />  </a>
-                <a href={`https://${league.strTwitter}`} target="_blank"><FontAwesomeIcon className="icons fa-2x" icon={faTwitter} /></a>
+                <a href={`https://${league.strFacebook}`} target="_blank/"><FontAwesomeIcon style={{ color: 'blue' }} className="icons fa-2x" icon={faFacebook} />  </a>
+                <a href={`https://${league.strYoutube}`} target="_blank/" alt=""><FontAwesomeIcon className="icons fa-2x" style={{ color: 'red' }} icon={faYoutube} />  </a>
+                <a href={`https://${league.strTwitter}`} target="_blank/"><FontAwesomeIcon className="icons fa-2x" icon={faTwitter} /></a>
             </div>
 
 

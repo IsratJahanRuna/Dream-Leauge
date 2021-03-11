@@ -25,7 +25,7 @@ const League = ({ league }) => {
             <Card style={{ width: '18rem', height: '300px', backgroundColor: 'palegreen', textAlign: 'center', margin: '5px' }}>
 
                 <Card.Body>
-                    <img style={{ width: '100px', height: '120px' }} src={leagues.strBadge} />
+                    <img style={{ width: '100px', height: '120px' }} src={leagues.strBadge} alt=""/>
 
                     <Card.Text>
                         <p><b>{strLeague}</b></p>
