@@ -12,24 +12,24 @@ import Nomatch from './components/NoMatch/Nomatch';
 import LeagueDetail from './components/LeagueDetail/LeagueDetail';
 
 function App() {
-  
+
   return (
     <Router>
-     <Switch>
-       <Route path = "/home">
-       <Home></Home>
-       </Route>
-       <Route path = "/league/:leagueId">
-       <LeagueDetail></LeagueDetail>
-       </Route>
-       <Route exact path = "/">
-       <Home/>
-       </Route>
-       <Route path = "*">
-       <Nomatch></Nomatch>
-       </Route>
-     </Switch>
-      
+      <Switch>
+        <Route path="/home">
+          <Home></Home>
+        </Route>
+        <Route path="/league/:leagueId">
+          <LeagueDetail></LeagueDetail>
+        </Route>
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="*">
+          <Nomatch></Nomatch>
+        </Route>
+      </Switch>
+
     </Router>
   );
 }
