@@ -21,7 +21,7 @@ const League = ({ league }) => {
 
     return (
 
-        <div className="home-page d-inline-flex  justify-content-center ml-5 " style={{ width: '23rem', marginBottom: '50px', backgroundColor: 'red', border: '1px solid red', borderRadius: '15px' }}>
+        <div className="home-page d-inline-flex  justify-content-center ml-5 " style={{ width: '23rem', marginBottom: '50px', backgroundColor: 'red', borderRadius: '15px' }}>
             <Card style={{ width: '18rem', height: '300px', backgroundColor: 'palegreen', textAlign: 'center', margin: '5px' }}>
 
                 <Card.Body>
