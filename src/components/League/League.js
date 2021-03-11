@@ -16,7 +16,7 @@ const League = ({ league }) => {
             .then(data => setLeagues(data.leagues[0]));
 
 
-    }, [])
+    }, [idLeague])
 
 
     return (

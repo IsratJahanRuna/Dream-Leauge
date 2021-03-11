@@ -16,7 +16,7 @@ const LeagueDetail = () => {
             .then(data => setLeague(data.leagues[0]));
 
 
-    }, [])
+    }, [leagueId])
 
     let leaguePicture;
     if ("Male" === league.strGender) {
