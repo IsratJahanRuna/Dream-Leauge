@@ -1,0 +1,25 @@
+.inside-container{
+    display: flex;
+    background-color: rgb(8, 8, 187);
+    width: 930px;
+    height: 220px;
+    color:white;
+    border:white;
+    border-radius: 10px;
+    margin-left: 230px;
+    margin-bottom: 20px;
+}
+.image-container{
+    margin-top: 10px;
+}
+.inside-para{
+   text-align: justify;
+   color: white;
+}
+.whole-details{
+    background-color: rgb(5, 5, 37);
+}
+.logo img{
+    background-color: gray;
+    padding: 10px;
+}

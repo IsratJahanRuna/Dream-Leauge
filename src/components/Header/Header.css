@@ -1,0 +1,10 @@
+.header{
+    background-image: url(https://www.lawinsport.com/media/zoo/images/The-stadium_3f9ce89b87a3f738d3d0aca3a6fa2b80.jpeg);
+    height: 270px;
+    width:100%;
+    padding: 15px;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
